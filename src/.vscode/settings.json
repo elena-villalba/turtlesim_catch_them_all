@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/elena/ros2-quickstart/install/py_template_pkg/lib/python3.12/site-packages",
+        "/home/elena/ros2-quickstart/install/activities/lib/python3.12/site-packages",
+        "/home/elena/ros2-quickstart/install/interfaces_template/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/elena/ros2-quickstart/install/py_template_pkg/lib/python3.12/site-packages",
+        "/home/elena/ros2-quickstart/install/activities/lib/python3.12/site-packages",
+        "/home/elena/ros2-quickstart/install/interfaces_template/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
