@@ -17,9 +17,10 @@ setup(
     maintainer_email='evillalba001@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'turtle_controller = turtlesim_catch_them_all_py.turtle_controller:main',
+
         ],
     },
 )
