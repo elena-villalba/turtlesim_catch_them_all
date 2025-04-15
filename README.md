@@ -37,7 +37,7 @@ ros2 launch turtlesim_bringup turtlesim_catch_them_all_py.launch.xml
 ```
 
 ## Modifying Parameters in the YAML File
-For more information about configurable options, refer to the [Parameters](#parameters) section.
+For more information about configurable options, refer to the [Parameters](https://github.com/elena-villalba/turtlesim_catch_them_all?tab=readme-ov-file#%EF%B8%8F-parameters) section.
 1. Open the `turtlesim_catch_them_all.yaml` file located in the `turtlesim/config/` folder.
 2. Modify the parameters as needed. 
 3. Save the file.
@@ -59,7 +59,7 @@ The project includes three nodes:
     - **Topics:**
         - `/turtle1/pose`: Publishes the current position and orientation of `turtle1`. 
         - `/turtle1/cmd_vel`: Subscribed to by `turtlesim_node` to receive velocity commands for `turtle1`. 
-
+        
 2. **`turtle_spawner`:** 
     - **Description:** This custom node handles the spawning of new turtles at random positions and manages the "alive" turtles in the simulation. 
     - **Client Services:** 
@@ -69,7 +69,7 @@ The project includes three nodes:
         - `/catch_turtle`: A custom service that is used to remove a turtle from the list of alive turtles and the screen, based on requests from the `turtle_controller` node.
     - **Topic:**
         - `/alive_turtles`: Publishes a list of all currently alive turtles, including their names and coordinates.
-
+        
 3. **`turtle_controller`:** 
     - **Description:** This custom node controls the movement of the "master" turtle (`turtle1`). It runs a simplified proportional (P) controller to move towards and catch other turtles by reaching their positions. The node selects the next turtle to catch from the list of alive turtles, based on predefined strategies.
     - **Client Service:** 
@@ -85,13 +85,11 @@ The project includes three nodes:
 
 The project uses custom messages and services for communication between nodes:
 
-1. `Turtle.msg`:
+- `Turtle.msg`:
     - This message format is used to represent a turtle's data (name, x and y coordinates, and orientation).
-   
-2. `TurtleArray.msg`:
-    - This message format holds an array of `Turtle` messages, representing all the currently alive turtles with their positions. It is published by the `turtle_spawner` node on the `/alive_turtles` topic.
-
-3. `CatchTurtle.srv`:
+- `TurtleArray.msg`:
+    - This message format holds an array of `Turtle` messages, representing all the currently alive turtles with their positions. It is published by the `turtle_spawner` node on the `/alive_turtles` topic
+- `CatchTurtle.srv`: 
     - This custom service allows the `turtle_controller` node to request the removal of a turtle from the simulation. It accepts the name of the turtle to be removed and responds with a success status.
 
 ### ⚙️ Parameters:
