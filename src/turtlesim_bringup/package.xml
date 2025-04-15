@@ -3,9 +3,14 @@
 <package format="3">
   <name>turtlesim_bringup</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>
+    This package contains launch files and configuration for bringing up the 
+    simulation environment. It includes launch configurations for spawning turtles, 
+    managing their lifecycle, and configuring parameters for the turtle_controller 
+    and turtle_spawner nodes.
+  </description>
   <maintainer email="evillalba001@gmail.com">elena</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

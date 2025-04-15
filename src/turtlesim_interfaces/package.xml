@@ -3,9 +3,14 @@
 <package format="3">
   <name>turtlesim_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description> 
+    This package defines the custom ROS 2 message and service interfaces used in the 
+    simulation. It includes the Turtle and TurtleArray messages for publishing 
+    turtle data and the CatchTurtle service for removing turtles when they are caught
+    by the master turtle.
+  </description>
   <maintainer email="evillalba001@gmail.com">elena</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

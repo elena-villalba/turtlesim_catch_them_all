@@ -3,9 +3,15 @@
 <package format="3">
   <name>turtlesim_catch_them_all_py</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>
+    This package contains the custom Python nodes for controlling and spawning 
+    turtles in the ROS 2 simulation. The turtle_controller node controls the "master" 
+    turtle (turtle1), moving it to catch other turtles. The turtle_spawner node 
+    spawns new turtles at random positions and handles the removal of turtles 
+    when caught.
+  </description>
   <maintainer email="evillalba001@gmail.com">elena</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache 2.0</license>
 
   <depend>rclpy</depend>
   <depend>turtlesim</depend>
