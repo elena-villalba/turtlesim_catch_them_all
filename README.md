@@ -4,10 +4,13 @@ This project implements a ROS 2 simulation using the `turtlesim` package, where 
 <!-- ![demo](path/to/your/demo.gif) Replace with the actual path to your GIF -->
 
 ## Requirements
+
 - Ubuntu 24.04 LTS
 - ROS 2 Jazzy 
 
 ## Installation
+
+**Warning**: This repository is already structured as a ROS 2 workspace. If you have an existing workspace sourced in your `~/.bashrc` file (e.g., `source ~/your_workspace/install/setup.bash`), make sure to comment it out before sourcing this workspace, as it might cause conflicts.
 
 Clone the repository:
 
