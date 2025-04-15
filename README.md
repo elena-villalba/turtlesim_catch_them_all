@@ -1,7 +1,7 @@
 # turtlesim_catch_them_all
 This project implements a ROS 2 simulation using the `turtlesim` package, where a turtle (`turtle1`) "catches" other turtles that are randomly spawned by moving toward them and removing them from the screen once caught.
 
-<!-- ![demo](path/to/your/demo.gif) Replace with the actual path to your GIF -->
+![demo](docs/demo_gif.gif)
 
 ## Requirements
 
