@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>turtlesim_catch_them_all_py</name>
+  <name>turtlesim_bringup</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="evillalba001@gmail.com">elena</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
-  <depend>turtlesim</depend>
-  <depend>geometry_msgs</depend>
-  <depend>turtlesim_interfaces</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>turtlesim_catch_them_all_py</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

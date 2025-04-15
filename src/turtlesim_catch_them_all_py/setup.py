@@ -20,6 +20,7 @@ setup(
     entry_points={
         'console_scripts': [
             'turtle_controller = turtlesim_catch_them_all_py.turtle_controller:main',
+            'turtle_spawner = turtlesim_catch_them_all_py.turtle_spawner:main',
 
         ],
     },

@@ -6,7 +6,7 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/elena/ros2-quickstart/install/interfaces_template/include/**",
+        "/home/elena/turtlesim_catch_them_all/install/turtlesim_interfaces/include/**",
         "/opt/ros/jazzy/include/**",
         "/usr/include/**"
       ],
