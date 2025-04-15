@@ -9,25 +9,25 @@ This project implements a ROS 2 simulation using the `turtlesim` package, where 
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone git@github.com:elena-villalba/turtlesim_catch_them_all.git
 ```
 
-2. Build the workspace:
+Build the workspace:
 
 ```bash
 cd turtlesim_catch_them_all
 colcon build
 ```
-3. Source the workspace:
+Source the workspace:
 
 ```bash
 source install/setup.bash
 ```
 
-4. Launch the simulation using python or xml launch:
+Launch the simulation using python or xml launch:
 
 ```bash
 ros2 launch turtlesim_bringup turtlesim_catch_them_all_py.launch.py
